@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Libre Bodoni", serif;
+  /* outline: 1px solid red; */
+}
+
+/* NAVIGATION BAR */
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #686868;
+  margin-bottom: 40px;
+}
+
+.navigation-bar {
+  background-color: #686868;
+  color: #ffffff;
+  height: 80px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.topnav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: black;
+  font-size: 50px;
+}
+
+.search-bar {
+  height: 30px;
+  width: 400px;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+  background-color: #17a2b8;
+  color: #ffffff;
+  border: 1px solid gainsboro;
+  font-size: 16px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* MAIN CONTENT */
+#container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#definition-one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  margin: 10px;
+  margin-left: 100px;
+  height: 200px;
+  width: 70%;
+  padding: 10px;
+}
+
+#definition-one h1,
+h3,
+.plural {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+#ninja-one {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#definition-two {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  margin: 10px;
+  margin-left: 100px;
+  height: 200px;
+  width: 61.1%;
+  padding: 10px;
+}
+
+#definition-two h1,
+h3,
+.plural {
+  display: flex;
+  justify-content: center;
+}
+
+.likes-button {
+  height: 40px;
+  width: 120px;
+  background-color: rgb(243, 229, 30);
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 16px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 30%;
+  padding: 10px;
+}
+
+.add-def-button {
+  height: 40px;
+  width: 200px;
+  background-color: rgb(1, 170, 7);
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 16px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}

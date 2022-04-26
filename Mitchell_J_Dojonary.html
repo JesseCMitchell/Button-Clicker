@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojonary</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Mitchell_J_Dojonary.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div class="nav-bar-container">
+      <nav class="navigation-bar">
+        <div class="topnav">
+          <h1 class="nav-title">Dojonary</h1>
+          <input class="search-bar" type="text" placeholder="Search..." />
+          <button class="btn" onclick="logOut(this)">Login</button>
+        </div>
+      </nav>
+    </div>
+    <!-- ninja 1 -->
+    <main id="container">
+      <div id="definition-one">
+        <div class="word-column">
+          <h1>ninja</h1>
+          <h3>noun</h3>
+          <p class="plural">Plural: <em>ninjas</em></p>
+          <button class="likes-button" onclick="alert('Ninja was liked')">
+            13 likes
+          </button>
+        </div>
+        <div id="ninja-one">
+          <p>
+            A practitioner skilled in the <br />
+            <a href="#">Japanese</a>art of <a href="#">ninjutsu</a>
+          </p>
+        </div>
+      </div>
+      <!-- sidebar -->
+      <div id="sidebar">
+        <h2>
+          Dojonary is <br />
+          defined by <strong>YOU</strong>
+        </h2>
+        <button class="add-def-button" onclick="hide(this)">
+          Add Definition
+        </button>
+      </div>
+    </main>
+    <!-- ninja 2 -->
+    <main id="container2">
+      <div id="definition-two">
+        <div class="word-column-two">
+          <h1>ninja</h1>
+          <h3>noun</h3>
+          <p class="plural">Plural: <em>ninjas</em></p>
+          <button class="likes-button" onclick="alert('Ninja was liked')">
+            37 likes
+          </button>
+        </div>
+        <div id="ninja-two">
+          <p class="ninja-programmer">
+            A <a href="#">programmer</a> who breaks <br />
+            down problems with <a href="#">zen</a>-like <br />
+            focus
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="Mitchell_J_Dojonary.js"></script>
+  </body>
+</html>
